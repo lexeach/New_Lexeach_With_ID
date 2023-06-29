@@ -585,9 +585,9 @@ const Dashboard = () => {
       {udIsExist ? (
         <div
           className={`row  ${
-            exSubAdmin && udReferredUsers < 3
+            exSubAdmin && udReferredUsers > 2
               ? "private-section-bg-light-green"
-              : !exSubAdmin && udReferredUsers < 1
+              : !exSubAdmin && udReferredUsers > 0
               ? "private-section-bg-light-yellow"
               : "private-section-bg-light-red"
           } `}
