@@ -244,7 +244,7 @@ const Dashboard = () => {
             address: "0x487C09FfecD0525e3D86E55deF2417542cFBDcC6",
             symbol: "LXC",
             decimals: 18,
-            image: "https://www.pinksale.finance/static/media/pinkswap.a95de4f3.png",
+            image: "https://main.d2n1pq6gioa1qy.amplifyapp.com/static/media/logo.a231a7e78d782a87c752.png",
           },
         },
       });
